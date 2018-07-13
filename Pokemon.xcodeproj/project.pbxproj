@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252191C020F88D2500A5AF8E /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 252191BF20F88D2500A5AF8E /* pokemon.csv */; };
 		25EB785E20F87E010040589F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EB785D20F87E010040589F /* AppDelegate.swift */; };
 		25EB786020F87E010040589F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EB785F20F87E010040589F /* ViewController.swift */; };
 		25EB786320F87E010040589F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EB786120F87E010040589F /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		252191BF20F88D2500A5AF8E /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../devslopes-ios10/05 Working With REST  Web Requests on iOS 10  Swift 3/attached_files/099 iOS 10 App Pokedex - Finishing the Pokedex/pokedex3/pokedex3/pokemon.csv"; sourceTree = "<group>"; };
 		25EB785A20F87E010040589F /* Pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EB785D20F87E010040589F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25EB785F20F87E010040589F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				25EB786920F87E020040589F /* LaunchScreen.storyboard */,
 				25EB786C20F87E020040589F /* Info.plist */,
 				25EB786420F87E010040589F /* Pokemon.xcdatamodeld */,
+				252191BF20F88D2500A5AF8E /* pokemon.csv */,
 			);
 			path = Pokemon;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				25EB786B20F87E020040589F /* LaunchScreen.storyboard in Resources */,
 				25EB786820F87E020040589F /* Assets.xcassets in Resources */,
+				252191C020F88D2500A5AF8E /* pokemon.csv in Resources */,
 				25EB786320F87E010040589F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
